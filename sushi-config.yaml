@@ -387,6 +387,8 @@ pages:
       title: Core data elements Dictionary
     decision-logic.md:
       title: Decision-support logic
+    indicators-and-performance-metrics.md:
+      title: Indicator and Performance Metrics
     functional-requirements.md:
       title: Functional Requirements
     non-functional-requirements.md:
@@ -402,8 +404,8 @@ pages:
       title: Transactions
     logical-models.md:
       title: Logical Models
-    indicators.md:
-      title: Indicator and Performance Metrics
+    indicators-measures.md:
+      title: Indicators and Measures
 
 
   deployment.md:
