@@ -1,0 +1,1066 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "85d4ca19-aa5d-4229-b6ed-df02c6fd9f2d",
+  "meta" : {
+    "lastUpdated" : "2023-04-01T05:56:31.590+00:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://fhir.org/guides/who/smart-immunization/ValueSet/EnceVirClassTBEVaccine-values",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "EnceVirClassTBEVaccine-values",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2022</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-871719005\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/871719005\">871719005</a></td><td>http://snomed.info/sct</td><td>Vaccine product containing only Tick-borne encephalitis virus antigen (medicinal product)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-836403007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/836403007\">836403007</a></td><td>http://snomed.info/sct</td><td>Vaccine product containing Tick-borne encephalitis virus antigen (medicinal product)</td></tr></table></div>"
+      },
+      "url" : "http://fhir.org/guides/who/smart-immunization/ValueSet/EnceVirClassTBEVaccine-values",
+      "version" : "0.1.0",
+      "name" : "EnceVirClassTBEVaccinevalues",
+      "title" : "EnceVir Class TBE Vaccine values",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2023-04-01T05:56:31+00:00",
+      "publisher" : "World Health Organization (WHO)",
+      "description" : "Codes representing EnceVir Class TBE Vaccine values",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "immutable" : true,
+      "expansion" : {
+        "identifier" : "urn:uuid:8246f56b-155e-4075-993c-aa4de4a9ef29",
+        "timestamp" : "2023-04-01T05:57:57+00:00",
+        "total" : 2,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "871719005",
+          "display" : "Vaccine product containing only Tick-borne encephalitis virus antigen (medicinal product)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "836403007",
+          "display" : "Vaccine product containing Tick-borne encephalitis virus antigen (medicinal product)"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.org/guides/who/smart-immunization/ValueSet/TBEMoscowClassTBEVaccine-values",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "TBEMoscowClassTBEVaccine-values",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2022</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-871719005\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/871719005\">871719005</a></td><td>http://snomed.info/sct</td><td>Vaccine product containing only Tick-borne encephalitis virus antigen (medicinal product)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-836403007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/836403007\">836403007</a></td><td>http://snomed.info/sct</td><td>Vaccine product containing Tick-borne encephalitis virus antigen (medicinal product)</td></tr></table></div>"
+      },
+      "url" : "http://fhir.org/guides/who/smart-immunization/ValueSet/TBEMoscowClassTBEVaccine-values",
+      "version" : "0.1.0",
+      "name" : "TBEMoscowClassTBEVaccinevalues",
+      "title" : "TBE-Moscow Class TBE Vaccine values",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2023-04-01T05:56:31+00:00",
+      "publisher" : "World Health Organization (WHO)",
+      "description" : "Codes representing TBE-Moscow Class TBE Vaccine values",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "immutable" : true,
+      "expansion" : {
+        "identifier" : "urn:uuid:429171e1-a251-4e36-a4b3-8a01f10b3636",
+        "timestamp" : "2023-04-01T05:57:57+00:00",
+        "total" : 2,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "871719005",
+          "display" : "Vaccine product containing only Tick-borne encephalitis virus antigen (medicinal product)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "836403007",
+          "display" : "Vaccine product containing Tick-borne encephalitis virus antigen (medicinal product)"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.org/guides/who/smart-immunization/ValueSet/InactivatedJE-values",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "InactivatedJE-values",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2022</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-871725009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/871725009\">871725009</a></td><td>http://snomed.info/sct</td><td>Vaccine product containing only inactivated whole Japanese encephalitis virus antigen (medicinal product)</td></tr></table></div>"
+      },
+      "url" : "http://fhir.org/guides/who/smart-immunization/ValueSet/InactivatedJE-values",
+      "version" : "0.1.0",
+      "name" : "InactivatedJEvalues",
+      "title" : "Inactivated Vero cell-derived Japanese Encephalitis vaccines valueset",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2023-04-01T05:56:31+00:00",
+      "publisher" : "World Health Organization (WHO)",
+      "description" : "Codes representing Inactivated Vero cell-derived Japanese Encephalitis vaccines values",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "immutable" : true,
+      "expansion" : {
+        "identifier" : "urn:uuid:5e01ca5c-6bc5-48d3-b379-4541e69ecf0a",
+        "timestamp" : "2023-04-01T05:57:57+00:00",
+        "total" : 1,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "871725009",
+          "display" : "Vaccine product containing only inactivated whole Japanese encephalitis virus antigen (medicinal product)"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.org/guides/who/smart-immunization/ValueSet/WCClassCholeraVaccine-values",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "WCClassCholeraVaccine-values",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2022</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-991000221105\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/991000221105\">991000221105</a></td><td>http://snomed.info/sct</td><td>Vaccine product containing only Vibrio cholerae antigen (medicinal product)</td></tr></table></div>"
+      },
+      "url" : "http://fhir.org/guides/who/smart-immunization/ValueSet/WCClassCholeraVaccine-values",
+      "version" : "0.1.0",
+      "name" : "WCClassCholeraVaccinevalues",
+      "title" : "WC Class Cholera Vaccine values",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2023-04-01T05:56:31+00:00",
+      "publisher" : "World Health Organization (WHO)",
+      "description" : "Codes representing WC Class Cholera Vaccine values",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "immutable" : true,
+      "expansion" : {
+        "identifier" : "urn:uuid:8631298a-4091-40b3-ae67-d642204beb51",
+        "timestamp" : "2023-04-01T05:57:57+00:00",
+        "total" : 1,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "991000221105",
+          "display" : "Vaccine product containing only Vibrio cholerae antigen (medicinal product)"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.org/guides/who/smart-immunization/ValueSet/CD4percentageTest-values",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "CD4percentageTest-values",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li>Loinc v2.73</li><li>SNOMED CT International edition 31-Jul 2022</li></ul></div><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-313938009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/313938009\">313938009</a></td><td>http://snomed.info/sct</td><td>CD4 percent count (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-413069009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/413069009\">413069009</a></td><td>http://snomed.info/sct</td><td>Percentage CD4 (T4 cells) count (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-80223-1\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/80223-1/\">80223-1</a></td><td>http://loinc.org</td><td>CD4 cells/100 lymphocytes in Specimen</td></tr></table></div>"
+      },
+      "url" : "http://fhir.org/guides/who/smart-immunization/ValueSet/CD4percentageTest-values",
+      "version" : "0.1.0",
+      "name" : "CD4percentageTestvalues",
+      "title" : "CD4 Percentage Test",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2023-04-01T05:56:31+00:00",
+      "publisher" : "World Health Organization (WHO)",
+      "description" : "Codes representing CD4 Percentage Test values",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "immutable" : true,
+      "expansion" : {
+        "identifier" : "urn:uuid:1b193351-2c0b-4f6e-a122-7f9ac4515220",
+        "timestamp" : "2023-04-01T05:57:58+00:00",
+        "total" : 3,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://loinc.org|2.73"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "313938009",
+          "display" : "CD4 percent count (procedure)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "413069009",
+          "display" : "Percentage CD4 (T4 cells) count (procedure)"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "80223-1",
+          "display" : "CD4 cells/100 lymphocytes in Specimen"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.org/guides/who/smart-immunization/ValueSet/VNAlevelsRabies-values",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "VNAlevelsRabies-values",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 7 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li>Loinc v2.73</li><li>SNOMED CT International edition 31-Jul 2022</li></ul></div><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-70859-4\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/70859-4/\">70859-4</a></td><td>http://loinc.org</td><td>Rabies virus neutralizing antibody [Presence] in Cerebral spinal fluid by Neutralization test</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-6527-6\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/6527-6/\">6527-6</a></td><td>http://loinc.org</td><td>Rabies virus neutralizing antibody [Units/volume] in Specimen by Neutralization test</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-6523-5\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/6523-5/\">6523-5</a></td><td>http://loinc.org</td><td>Rabies virus neutralizing antibody [Units/volume] in Cerebral spinal fluid by Neutralization test</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-6525-0\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/6525-0/\">6525-0</a></td><td>http://loinc.org</td><td>Rabies virus neutralizing antibody [Units/volume] in Tissue by Neutralization test</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-6524-3\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/6524-3/\">6524-3</a></td><td>http://loinc.org</td><td>Rabies virus neutralizing antibody [Units/volume] in Serum by Neutralization test</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-43980-2\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/43980-2/\">43980-2</a></td><td>http://loinc.org</td><td>Rabies virus neutralizing antibody [Titer] in Serum by Neutralization test</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-122078009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/122078009\">122078009</a></td><td>http://snomed.info/sct</td><td>Measurement of Rabies virus antibody (procedure)</td></tr></table></div>"
+      },
+      "url" : "http://fhir.org/guides/who/smart-immunization/ValueSet/VNAlevelsRabies-values",
+      "version" : "0.1.0",
+      "name" : "VNAlevelsRabiesvalues",
+      "title" : "VNA Level Rabies valueset",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2023-04-01T05:56:31+00:00",
+      "publisher" : "World Health Organization (WHO)",
+      "description" : "Codes representing Virus Neutralizing Antibody Levels values",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "immutable" : true,
+      "expansion" : {
+        "identifier" : "urn:uuid:b8140647-55e3-46b3-913e-1fcac1a9b4a0",
+        "timestamp" : "2023-04-01T05:57:58+00:00",
+        "total" : 7,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://loinc.org|2.73"
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
+        }],
+        "contains" : [{
+          "system" : "http://loinc.org",
+          "code" : "70859-4",
+          "display" : "Rabies virus neutralizing antibody [Presence] in Cerebral spinal fluid by Neutralization test"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "6527-6",
+          "display" : "Rabies virus neutralizing antibody [Units/volume] in Specimen by Neutralization test"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "6523-5",
+          "display" : "Rabies virus neutralizing antibody [Units/volume] in Cerebral spinal fluid by Neutralization test"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "6525-0",
+          "display" : "Rabies virus neutralizing antibody [Units/volume] in Tissue by Neutralization test"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "6524-3",
+          "display" : "Rabies virus neutralizing antibody [Units/volume] in Serum by Neutralization test"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "43980-2",
+          "display" : "Rabies virus neutralizing antibody [Titer] in Serum by Neutralization test"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "122078009",
+          "display" : "Measurement of Rabies virus antibody (procedure)"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.org/guides/who/smart-immunization/ValueSet/WCrBSClassCholeraVaccine-values",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "WCrBSClassCholeraVaccine-values",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2022</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-991000221105\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/991000221105\">991000221105</a></td><td>http://snomed.info/sct</td><td>Vaccine product containing only Vibrio cholerae antigen (medicinal product)</td></tr></table></div>"
+      },
+      "url" : "http://fhir.org/guides/who/smart-immunization/ValueSet/WCrBSClassCholeraVaccine-values",
+      "version" : "0.1.0",
+      "name" : "WCrBSClassCholeraVaccinevalues",
+      "title" : "WC-rBS Class Cholera Vaccine values",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2023-04-01T05:56:31+00:00",
+      "publisher" : "World Health Organization (WHO)",
+      "description" : "Codes representing WC-rBS Class Cholera Vaccine values",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "immutable" : true,
+      "expansion" : {
+        "identifier" : "urn:uuid:096f4651-e548-477d-bcc4-ea5bb60c9d09",
+        "timestamp" : "2023-04-01T05:57:58+00:00",
+        "total" : 1,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "991000221105",
+          "display" : "Vaccine product containing only Vibrio cholerae antigen (medicinal product)"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.org/guides/who/smart-immunization/ValueSet/TSTTestResult-values",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "TSTTestResult-values",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2022</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-28163009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/28163009\">28163009</a></td><td>http://snomed.info/sct</td><td>Skin test for tuberculosis, Tine test (procedure)</td></tr></table></div>"
+      },
+      "url" : "http://fhir.org/guides/who/smart-immunization/ValueSet/TSTTestResult-values",
+      "version" : "0.1.0",
+      "name" : "TSTTestResultvalues",
+      "title" : "TST Test Result values",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2023-04-01T05:56:31+00:00",
+      "publisher" : "World Health Organization (WHO)",
+      "description" : "Codes representing TST Test Result values",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "immutable" : true,
+      "expansion" : {
+        "identifier" : "urn:uuid:c8114968-b761-4b3e-9e41-4a78fb84b83f",
+        "timestamp" : "2023-04-01T05:57:58+00:00",
+        "total" : 1,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "28163009",
+          "display" : "Skin test for tuberculosis, Tine test (procedure)"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.org/guides/who/smart-immunization/ValueSet/Immunocompromised-values",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "Immunocompromised-values",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2022</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-370388006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/370388006\">370388006</a></td><td>http://snomed.info/sct</td><td>Patient immunocompromised</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-370391006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/370391006\">370391006</a></td><td>http://snomed.info/sct</td><td>Patient immunosuppressed</td></tr></table></div>"
+      },
+      "url" : "http://fhir.org/guides/who/smart-immunization/ValueSet/Immunocompromised-values",
+      "version" : "0.1.0",
+      "name" : "Immunocompromisedvalues",
+      "title" : "Immunocompromised valueset",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2023-04-01T05:56:31+00:00",
+      "publisher" : "World Health Organization (WHO)",
+      "description" : "Codes representing Immunocompromised values",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "immutable" : true,
+      "expansion" : {
+        "identifier" : "urn:uuid:f148ab65-e24c-4dbd-8430-d00c8800f85a",
+        "timestamp" : "2023-04-01T05:57:59+00:00",
+        "total" : 2,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "370388006",
+          "display" : "Patient immunocompromised"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "370391006",
+          "display" : "Patient immunosuppressed"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.org/guides/who/smart-immunization/ValueSet/ARVDrugs-values",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "ARVDrugs-values",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2022</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-713540004\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/713540004\">713540004</a></td><td>http://snomed.info/sct</td><td>Substance with antiretroviral mechanism of action (substance)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-788075003\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/788075003\">788075003</a></td><td>http://snomed.info/sct</td><td>Medicinal product acting as antiretroviral agent (product)</td></tr></table></div>"
+      },
+      "url" : "http://fhir.org/guides/who/smart-immunization/ValueSet/ARVDrugs-values",
+      "version" : "0.1.0",
+      "name" : "ARVDrugsvalues",
+      "title" : "ARV Drugs values",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2023-04-01T05:56:31+00:00",
+      "publisher" : "World Health Organization (WHO)",
+      "description" : "Codes representing ARV Drugs values",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "immutable" : true,
+      "expansion" : {
+        "identifier" : "urn:uuid:1b9ffdc8-b833-4fb8-af98-aa656f7d0fa7",
+        "timestamp" : "2023-04-01T05:57:59+00:00",
+        "total" : 2,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "713540004",
+          "display" : "Substance with antiretroviral mechanism of action (substance)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "788075003",
+          "display" : "Medicinal product acting as antiretroviral agent (product)"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.org/guides/who/smart-immunization/ValueSet/FSMEImmunClassTBEVaccine-values",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "FSMEImmunClassTBEVaccine-values",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2022</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-871719005\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/871719005\">871719005</a></td><td>http://snomed.info/sct</td><td>Vaccine product containing only Tick-borne encephalitis virus antigen (medicinal product)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-836403007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/836403007\">836403007</a></td><td>http://snomed.info/sct</td><td>Vaccine product containing Tick-borne encephalitis virus antigen (medicinal product)</td></tr></table></div>"
+      },
+      "url" : "http://fhir.org/guides/who/smart-immunization/ValueSet/FSMEImmunClassTBEVaccine-values",
+      "version" : "0.1.0",
+      "name" : "FSMEImmunClassTBEVaccinevalues",
+      "title" : "FSME-Immun Class TBE Vaccine values",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2023-04-01T05:56:31+00:00",
+      "publisher" : "World Health Organization (WHO)",
+      "description" : "Codes representing FSME-Immun Class TBE Vaccine values",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "immutable" : true,
+      "expansion" : {
+        "identifier" : "urn:uuid:57fa42fa-f8c0-4dd8-91a4-72416de8b7f9",
+        "timestamp" : "2023-04-01T05:58:00+00:00",
+        "total" : 2,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "871719005",
+          "display" : "Vaccine product containing only Tick-borne encephalitis virus antigen (medicinal product)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "836403007",
+          "display" : "Vaccine product containing Tick-borne encephalitis virus antigen (medicinal product)"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.org/guides/who/smart-immunization/ValueSet/Negativetestresult-values",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "Negativetestresult-values",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2022</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-260385009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/260385009\">260385009</a></td><td>http://snomed.info/sct</td><td>Negative (qualifier value)</td></tr></table></div>"
+      },
+      "url" : "http://fhir.org/guides/who/smart-immunization/ValueSet/Negativetestresult-values",
+      "version" : "0.1.0",
+      "name" : "Negativetestresultvalues",
+      "title" : "Negative Test Results",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2023-04-01T05:56:31+00:00",
+      "publisher" : "World Health Organization (WHO)",
+      "description" : "Codes representing negative test result values",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "immutable" : true,
+      "expansion" : {
+        "identifier" : "urn:uuid:ed8df828-c1ce-4892-82c3-be0c2b4633da",
+        "timestamp" : "2023-04-01T05:58:00+00:00",
+        "total" : 1,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "260385009",
+          "display" : "Negative (qualifier value)"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.org/guides/who/smart-immunization/ValueSet/SickleCell-values",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "SickleCell-values",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2022</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-127040003\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/127040003\">127040003</a></td><td>http://snomed.info/sct</td><td>Sickle cell-hemoglobin SS disease (disorder)</td></tr></table></div>"
+      },
+      "url" : "http://fhir.org/guides/who/smart-immunization/ValueSet/SickleCell-values",
+      "version" : "0.1.0",
+      "name" : "SickleCellvalues",
+      "title" : "Sickle Cell valuest",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2023-04-01T05:56:31+00:00",
+      "publisher" : "World Health Organization (WHO)",
+      "description" : "Codes representing Sickle Cell values",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "immutable" : true,
+      "expansion" : {
+        "identifier" : "urn:uuid:5db661a3-7dc6-4784-9fa5-0b713df6e64d",
+        "timestamp" : "2023-04-01T05:58:00+00:00",
+        "total" : 1,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "127040003",
+          "display" : "Sickle cell-hemoglobin SS disease (disorder)"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.org/guides/who/smart-immunization/ValueSet/IGRATestResult-values",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "IGRATestResult-values",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2022</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-35140007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/35140007\">35140007</a></td><td>http://snomed.info/sct</td><td>Interferon gamma assay (procedure)</td></tr></table></div>"
+      },
+      "url" : "http://fhir.org/guides/who/smart-immunization/ValueSet/IGRATestResult-values",
+      "version" : "0.1.0",
+      "name" : "IGRATestResultvalues",
+      "title" : "IGRA Test Result values",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2023-04-01T05:56:31+00:00",
+      "publisher" : "World Health Organization (WHO)",
+      "description" : "Codes representing IGRA Test Result values",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "immutable" : true,
+      "expansion" : {
+        "identifier" : "urn:uuid:3210c11c-8ab9-4844-93f6-116b8eccf04e",
+        "timestamp" : "2023-04-01T05:58:04+00:00",
+        "total" : 1,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "35140007",
+          "display" : "Interferon gamma assay (procedure)"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.org/guides/who/smart-immunization/ValueSet/Birthweight-values",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "Birthweight-values",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li>Loinc v2.73</li><li>SNOMED CT International edition 31-Jul 2022</li></ul></div><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-276610007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/276610007\">276610007</a></td><td>http://snomed.info/sct</td><td>Birthweight</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-8339-4\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/8339-4/\">8339-4</a></td><td>http://loinc.org</td><td>Birth weight Measured</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-56056-5\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/56056-5/\">56056-5</a></td><td>http://loinc.org</td><td>Birth weight - Reported</td></tr></table></div>"
+      },
+      "url" : "http://fhir.org/guides/who/smart-immunization/ValueSet/Birthweight-values",
+      "version" : "0.1.0",
+      "name" : "Birthweightvalues",
+      "title" : "Birthweight valueset",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2023-04-01T05:56:31+00:00",
+      "publisher" : "World Health Organization (WHO)",
+      "description" : "Codes representing Birthweight values",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "immutable" : true,
+      "expansion" : {
+        "identifier" : "urn:uuid:32cec66c-e072-4c23-a2cf-8728b6522265",
+        "timestamp" : "2023-04-01T05:58:04+00:00",
+        "total" : 3,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://loinc.org|2.73"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "276610007",
+          "display" : "Birthweight"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "8339-4",
+          "display" : "Birth weight Measured"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "56056-5",
+          "display" : "Birth weight - Reported"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.org/guides/who/smart-immunization/ValueSet/EncepurClassTBEVaccine-values",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "EncepurClassTBEVaccine-values",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2022</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-871719005\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/871719005\">871719005</a></td><td>http://snomed.info/sct</td><td>Vaccine product containing only Tick-borne encephalitis virus antigen (medicinal product)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-836403007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/836403007\">836403007</a></td><td>http://snomed.info/sct</td><td>Vaccine product containing Tick-borne encephalitis virus antigen (medicinal product)</td></tr></table></div>"
+      },
+      "url" : "http://fhir.org/guides/who/smart-immunization/ValueSet/EncepurClassTBEVaccine-values",
+      "version" : "0.1.0",
+      "name" : "EncepurClassTBEVaccinevalues",
+      "title" : "Encepur Class TBE Vaccine values",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2023-04-01T05:56:31+00:00",
+      "publisher" : "World Health Organization (WHO)",
+      "description" : "Codes representing Encepur Class TBE Vaccine values",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "immutable" : true,
+      "expansion" : {
+        "identifier" : "urn:uuid:ac9b7cae-b6f4-4e42-9a9e-2edd98edb65d",
+        "timestamp" : "2023-04-01T05:58:06+00:00",
+        "total" : 2,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "871719005",
+          "display" : "Vaccine product containing only Tick-borne encephalitis virus antigen (medicinal product)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "836403007",
+          "display" : "Vaccine product containing Tick-borne encephalitis virus antigen (medicinal product)"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.org/guides/who/smart-immunization/ValueSet/Seronegative-values",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "Seronegative-values",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2022</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-81321002\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/81321002\">81321002</a></td><td>http://snomed.info/sct</td><td>Seronegative (qualifier value)</td></tr></table></div>"
+      },
+      "url" : "http://fhir.org/guides/who/smart-immunization/ValueSet/Seronegative-values",
+      "version" : "0.1.0",
+      "name" : "Seronegativevalues",
+      "title" : "Seronegative valuest",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2023-04-01T05:56:31+00:00",
+      "publisher" : "World Health Organization (WHO)",
+      "description" : "Codes representing Seronegative values",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "immutable" : true,
+      "expansion" : {
+        "identifier" : "urn:uuid:6a9e213e-b6f9-4c1c-b883-2e25fa3e9d44",
+        "timestamp" : "2023-04-01T05:58:06+00:00",
+        "total" : 1,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "81321002",
+          "display" : "Seronegative (qualifier value)"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.org/guides/who/smart-immunization/ValueSet/Preterm-values",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "Preterm-values",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li>Loinc v2.73</li><li>SNOMED CT International edition 31-Jul 2022</li></ul></div><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-367494004\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/367494004\">367494004</a></td><td>http://snomed.info/sct</td><td>Premature birth of newborn (finding)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-4886009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/4886009\">4886009</a></td><td>http://snomed.info/sct</td><td>Premature birth of newborn male (finding)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-59403008\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/59403008\">59403008</a></td><td>http://snomed.info/sct</td><td>Premature birth of newborn female (finding)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-76517-2\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/76517-2/\">76517-2</a></td><td>http://loinc.org</td><td>Premature infant</td></tr></table></div>"
+      },
+      "url" : "http://fhir.org/guides/who/smart-immunization/ValueSet/Preterm-values",
+      "version" : "0.1.0",
+      "name" : "Pretermvalues",
+      "title" : "Preterm valueset",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2023-04-01T05:56:31+00:00",
+      "publisher" : "World Health Organization (WHO)",
+      "description" : "Codes representing Preterm values",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "immutable" : true,
+      "expansion" : {
+        "identifier" : "urn:uuid:0e8bddd3-287b-4f27-8fa1-efe4d2881fe4",
+        "timestamp" : "2023-04-01T05:58:07+00:00",
+        "total" : 4,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://loinc.org|2.73"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "367494004",
+          "display" : "Premature birth of newborn (finding)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "4886009",
+          "display" : "Premature birth of newborn male (finding)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "59403008",
+          "display" : "Premature birth of newborn female (finding)"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "76517-2",
+          "display" : "Premature infant"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.org/guides/who/smart-immunization/ValueSet/PositiveTestResult-values",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "PositiveTestResult-values",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2022</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-10828004\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/10828004\">10828004</a></td><td>http://snomed.info/sct</td><td>Positive (qualifier value)</td></tr></table></div>"
+      },
+      "url" : "http://fhir.org/guides/who/smart-immunization/ValueSet/PositiveTestResult-values",
+      "version" : "0.1.0",
+      "name" : "PositiveTestResultvalues",
+      "title" : "Positive Test Result valuest",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2023-04-01T05:56:31+00:00",
+      "publisher" : "World Health Organization (WHO)",
+      "description" : "Codes representing Positive Test Result values",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "immutable" : true,
+      "expansion" : {
+        "identifier" : "urn:uuid:acc9c620-6efb-42c3-bf98-be46dc09584c",
+        "timestamp" : "2023-04-01T05:58:10+00:00",
+        "total" : 1,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "10828004",
+          "display" : "Positive (qualifier value)"
+        }]
+      }
+    }
+  }]
+}

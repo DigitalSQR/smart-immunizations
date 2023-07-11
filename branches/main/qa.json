@@ -1,0 +1,12 @@
+{
+  "url" : "http://fhir.org/guides/who/smart-immunization/ImplementationGuide/fhir.who.immunization",
+  "name" : "Immunization",
+  "package-id" : "who.fhir.immunization",
+  "ig-ver" : "0.1.0",
+  "date" : "Tue, 11 Jul, 2023 06:05:13 +0000",
+  "errs" : 2774,
+  "warnings" : 484,
+  "hints" : 69,
+  "version" : "4.0.1",
+  "tool" : "5.0.0 (3)"
+}
